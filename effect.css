@@ -1,0 +1,46 @@
+.banner-btn{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    margin-top: 200px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+
+}
+.banner-btn a{
+    text-decoration: none;
+    color:black;
+    margin: 10px;
+    border-radius: 8px;
+    background-color:bisque;
+    padding:10px 10px 10px 10px;
+    font-weight: lighter;
+    border: 1.9px solid;
+    border-color: aquamarine;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 30px aqua;
+
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:chartreuse;
+    z-index: -1;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+.banner-btn a:hover span{
+    width: 100%;
+    
+}
+.banner-btn a:hover{
+    box-shadow: 0 0 30px red;
+    background-color: blueviolet;
+}
